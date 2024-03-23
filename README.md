@@ -15,7 +15,7 @@ TOOLS AND LIBRARIES USED:
  5. PANDAS -> Python library used for working with data sets. It has functions for analyzing, cleaning, exploring, and manipulating data. It is used widely for Data collection and manipulation for analytics.
  6. plotly -> open-source library that can be used for data visualization and understanding data simply and easily. Plotly supports various types of plots like line charts, scatter plots, histograms, box plots, etc.
 
-Libraries to import :: googleapiclient.discovery , streamlit , pandas, pymysql
+Libraries to import :: googleapiclient.discovery , streamlit , pandas, pymysql, plotly
 
 Approach :
 1. CONNECT TO YOUTUBE API : Retrieval of youtube channel information like Channel, Playlist, Videos, Comments for videos, etc by giving channel Id as input using the YouTube API.
