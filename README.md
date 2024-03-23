@@ -4,8 +4,21 @@ PROJECT TITLE:
            YouTube Data Harvesting and Warehousing using SQL and Streamlit.
            
 PROJECT DESCRIPTION:
-Youtube-Data-Harvesting-And-Warehousing YouTube Data Harvesting and Warehousing is a project that intends to provide users with the ability to access and analyse data from numerous YouTube channels. SQL, MongoDB, and Streamlit are used in the project to develop a user-friendly application that allows users to retrieve, save, and query YouTube channel and video data.
-This project aims to develop a user-friendly Streamlit application that utilizes the Google API to extract information on a YouTube channel, stores it in a SQL database, and enables users to search for channel details and join tables to view data in the Streamlit app.
+          Youtube-Data-Harvesting-And-Warehousing YouTube Data Harvesting and Warehousing is a project that intends to provide users with the ability to access and analyse data from numerous YouTube channels. SQL, MongoDB, and Streamlit are used in the project to develop a user-friendly application that allows users to retrieve, save, and query YouTube channel and video data.
+          This project aims to develop a user-friendly Streamlit application that utilizes the Google API to extract information on a YouTube channel, stores it in a SQL database, and enables users to search for channel details and join tables to view data in the Streamlit app.
+
+WORKFLOW:
+
+1. CONNECT TO YOUTUBE API : Retrieval of youtube channel information like Channel, Playlist, Videos, Comments for videos, etc by giving channel Id as input using the YouTube API.
+
+2. COLLECT AND STORE DATA : 
+    ---> The API and the Channel ID (Extracted from the Channel Page) is used to retrieve channel details, 
+    videos details and comment details.
+    ---> Clean the extracted data and then Converting to dataframe using Pandas.
+
+3. MIGARTE TO MYSQL : Migration of data to a MYSSQL database for storing all the information about channels and also efficient querying and analysis.
+
+4. DATA VISUALIZATION : Search and retrieval of data from the MYSQL database to get business insights and data visualization.
 
 TOOLS AND LIBRARIES USED:
  1. PYTHON -> Python is a powerful programming language renowned for being easy to learn and understand. Python is the primary language employed in this project for the development of the complete application, including data retrieval, processing, analysis, and visualisation.
@@ -17,11 +30,5 @@ TOOLS AND LIBRARIES USED:
 
 Libraries to import :: googleapiclient.discovery , streamlit , pandas, pymysql, plotly
 
-Approach :
-1. CONNECT TO YOUTUBE API : Retrieval of youtube channel information like Channel, Playlist, Videos, Comments for videos, etc by giving channel Id as input using the YouTube API.
-
-2. CLEAN AND STORE DATA : Cleaning the data and manipulating data and Converting to dataframe using Pandas.
-
-3. MIGARTE TO MYSQL : Migration of data to a MYSSQL database for storing all the information about channels and also efficient querying and analysis.
-
-4. DATA VISUALIZATION : Search and retrieval of data from the MYSQL database to get business insights and data visualization.
+CONCLUSION:
+        This project aim is to develop a user-friendly Streamlit application that utilizes the Google API to extract information on a YouTube channel, stores it in a MYSQL database, and enables users to search for channel information and finally done data visualization to identify trends, get business insights and make predictions for future, and improve decision-making.
