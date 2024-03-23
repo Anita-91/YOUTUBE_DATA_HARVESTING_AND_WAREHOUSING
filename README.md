@@ -1,6 +1,5 @@
-# YOUTUBE_DATA_HARVESTING_AND_WAREHOUSING
-Capstone_Project_YOUTUBE DATA HARVESTING
-#==================
+CAPSTONE_PROJECT_YOUTUBE DATA HARVESTING AND WAREHOUSING.
+
 PROJECT TITLE:
            YouTube Data Harvesting and Warehousing using SQL and Streamlit.
            
