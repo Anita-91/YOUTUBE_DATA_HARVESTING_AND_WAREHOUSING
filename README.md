@@ -12,7 +12,16 @@ TOOLS AND LIBRARIES USED:
  2. GOOGLE API CLIENT -> Its primary purpose in this project is to interact with YouTube's Data API v3, allowing the retrieval of essential information like channel details, video specifics, and comments. By utilizing googleapiclient, developers can easily access and manipulate YouTube's extensive data resources through code.
  3. MYSQL SERVER 8.0 -> MYSQL is an open-source relational database management system.organizes data into one or more data tables in which data may be related to each other; these relations help structure the data. SQL is a language that programmers use to create, modify and extract data from the relational database
  4. STREAMLIT -> Streamlit library is a framework used to build a user-friendly UI web application that enables users to interact with the programme and carry out data retrieval and analysis operations.
- 5. PANDAS -> 
+ 5. PANDAS -> Python library used for working with data sets. It has functions for analyzing, cleaning, exploring, and manipulating data. It is used widely for Data collection and manipulation for analytics.
+ 6. plotly -> open-source library that can be used for data visualization and understanding data simply and easily. Plotly supports various types of plots like line charts, scatter plots, histograms, box plots, etc.
 
+Libraries to import :: googleapiclient.discovery , streamlit , pandas, pymysql
 
+Approach :
+1. CONNECT TO YOUTUBE API : Retrieval of youtube channel information like Channel, Playlist, Videos, Comments for videos, etc by giving channel Id as input using the YouTube API.
 
+2. CLEAN AND STORE DATA : Cleaning the data and manipulating data and Converting to dataframe using Pandas.
+
+3. MIGARTE TO MYSQL : Migration of data to a MYSSQL database for storing all the information about channels and also efficient querying and analysis.
+
+4. DATA VISUALIZATION : Search and retrieval of data from the MYSQL database to get business insights and data visualization.
