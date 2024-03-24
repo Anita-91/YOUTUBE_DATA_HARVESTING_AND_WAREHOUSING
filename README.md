@@ -11,10 +11,10 @@ WORKFLOW:
 
 1. CONNECT TO YOUTUBE API : Retrieval of youtube channel information like Channel, Playlist, Videos, Comments for videos, etc by giving channel Id as input using the YouTube API.
 
-2. COLLECT AND STORE DATA : 
+2. COLLECT AND EXTRACT DATA : 
     ---> The API and the Channel ID (Extracted from the Channel Page) is used to retrieve channel details, 
     videos details and comment details.
-    ---> Clean the extracted data and then Converting to dataframe using Pandas.
+    ---> Clean the extracted data and then Convert it to dataframe using Pandas.
 
 3. MIGARTE TO MYSQL : Migration of data to a MYSSQL database for storing all the information about channels and also efficient querying and analysis.
 
