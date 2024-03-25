@@ -20,6 +20,8 @@ WORKFLOW:
 
 4. DATA VISUALIZATION : Search and retrieval of data from the MYSQL database to get business insights and data visualization.
 
+![image](images/flow.png)
+
 TOOLS AND LIBRARIES USED:
  1. PYTHON -> Python is a powerful programming language renowned for being easy to learn and understand. Python is the primary language employed in this project for the development of the complete application, including data retrieval, processing, analysis, and visualisation.
  2. GOOGLE API CLIENT -> Its primary purpose in this project is to interact with YouTube's Data API v3, allowing the retrieval of essential information like channel details, video specifics, and comments. By utilizing googleapiclient, developers can easily access and manipulate YouTube's extensive data resources through code.
