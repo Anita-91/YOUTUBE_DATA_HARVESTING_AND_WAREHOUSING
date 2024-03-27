@@ -1,1 +1,4 @@
+Anaconda spyder - For python coding
+python libraries::: googleapiclient.discovery , streamlit , pandas, pymysql, plotly
+MYSQL Server 8.0
 
