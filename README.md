@@ -1,4 +1,4 @@
-![image](images/logo.png) YOUTUBE DATA HARVESTING AND WAREHOUSING.
+![image](images/logo.jpg) YOUTUBE DATA HARVESTING AND WAREHOUSING.
 
 PROJECT TITLE:
            YouTube Data Harvesting and Warehousing using SQL and Streamlit.
